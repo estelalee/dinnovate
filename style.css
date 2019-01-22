@@ -1,40 +1,94 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-img{
+img {
     display: flex;
-    /* position: relative; */
 }
 
-.max-width{
+.max-width {
     max-width: 800px;
     margin: 0 auto;
 }
 
-.set{
+.cv-btn {
+    position: relative;
+}
+
+.btn {
+    position: absolute;
+    bottom: 7%;
+    left: 6%;
+    cursor: pointer;
+}
+
+.before-after{
+    position: relative;
+}
+
+/* .b-a-1{
+    position: absolute;
+    max-width: 90%;
+    z-index: 1;
+    left: 5%;
+    /*不知道怎麼擠下去*/
+
+/* 
+.b-a-bg{
+    position: absolute;
+    top: 20%;
+}  */ 
+
+.set-bg {
+    position: absolute;
+    top: 25%;
+}
+
+.set-content {
     display: flex;
     justify-content: center;
 }
 
-.cv-btn{
-    position: absolute;
-    left: 610px;
-    /* top: 1260px; */
-    z-index: 1;
+.sets,
+.set3,
+.set5,
+.cv-set3,
+.cv-set5 {
+    position: relative;
 }
 
-.cv-btn-set3{
-    position: absolute;
-    left: 600px;
-    z-index: 1;
-    
+.set3,
+.set5 {
+    position: relative;
+    bottom: -1%;
 }
 
-.cv-btn-set5{
+.set3btn,
+.set5btn {
     position: absolute;
-    left: 990px;
     z-index: 1;
+    left: 8%;
+    bottom: 0%;
+    cursor: pointer;
+}
+
+.qa img{
+    margin-bottom:1%;
+
+}
+
+/* .qa img::after{
+    content:url(./img/qa_btn_open.png)
+    /*沒反應???*/
+
+.open-btn{
+    position: relative;
+}
+
+.open1, .open2, .open3, .open4, .open5{
+    position: absolute;
+    top:23%;
+    right:5%;
 }
