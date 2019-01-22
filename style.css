@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: flex;
+    /* position: relative; */
+}
+
+.max-width{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.set{
+    display: flex;
+    justify-content: center;
+}
+
+.cv-btn{
+    position: absolute;
+    left: 610px;
+    /* top: 1260px; */
+    z-index: 1;
+}
+
+.cv-btn-set3{
+    position: absolute;
+    left: 600px;
+    z-index: 1;
+    
+}
+
+.cv-btn-set5{
+    position: absolute;
+    left: 990px;
+    z-index: 1;
+}
